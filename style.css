@@ -93,6 +93,8 @@ h2 {
 .about-me {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #about-me h1 {
@@ -120,6 +122,8 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+
+  justify-content: space-around;
 }
 
 .skill {
